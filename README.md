@@ -9,14 +9,17 @@ from sisr_infer import *
 import imageio
 import  utils
 
-#Tạo model: đường dẫn đến pretrained model trong thư mục checkpoint
+#Tạo model: đường dẫn đến pretrained model trong thư mục checkpoint <br/>
 SISRModel = SISR()
-
-#dữ liệu đầu vào: ảnh RGB, uint8
+<br/>
+<br/>
+#dữ liệu đầu vào: ảnh RGB, uint8 <br/>
 input = imageio.imread('./testImg/region2.jpg')
-
-#Dữ liệu đầu ra: ảnh Gray, uint8
+<br/>
+<br/>
+#Dữ liệu đầu ra: ảnh Gray, uint8 <br/>
 output = SISRModel.process(input)
-
-#Lưu file
+<br/>
+<br/>
+#Lưu file <br/>
 utils.imsave(output,'testImg2.jpg')
