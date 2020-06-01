@@ -1,6 +1,14 @@
 # Chương trình nâng cao chất lượng ảnh
 ## Author: Huỳnh Xuân Phụng
 ## Date: 5/2020
+<br/>
+Yêu cầu: <br/>
+pytorch 1.3.1 <br/>
+opencv 
+<br/>
+(Có thể xem chi tiết version trong thư mục cài đặt trên máy chủ FPT 10.3.9.222:/root/miniconda)
+
+
 Hướng dẫn sử dụng
 
 #import library
